@@ -6,9 +6,9 @@ on:
       - master
     paths:
       - src/**
-      - pages
-      - public
-      - styles
+      - pages/**
+      - public/**
+      - styles/**
       - package.json
       - package-lock.json
 
