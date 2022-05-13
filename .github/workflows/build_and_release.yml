@@ -34,7 +34,7 @@ jobs:
 
       - name: 📦 Zip dist files
         id: pack
-        uses: ./
+        uses: Roslovets-Inc/zip-npm-files@v1
         with:
           files: next.config.js node_modules package.json .next
 
